@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaming Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/lucide.min.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Game<span>Wave</span></div>
+    <div class="menu-toggle" id="menuToggle">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="slider">
+      <div class="slide active" style="background-image:url('https://images.unsplash.com/photo-1598931587111-370571bc54a0?fm=jpg&q=60&w=3000')"></div>
+      <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1599954946732-e8c824fcda82?fm=jpg&q=60&w=3000')"></div>
+      <div class="slide" style="background-image:url('https://www.vmcdn.ca/f/files/shared/editorials/still-image_xbox-game-pass_2_ea-play-title-cards.png;w=960')"></div>
+      <div class="slide" style="background-image:url('https://fossbytes.com/wp-content/uploads/2022/10/all-free-games-that-can-be-played-online-without-nintendo-switch-online-1024x576.jpg')"></div>
+      <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1518719028738-e7262020a932?fm=jpg&q=60&w=3000')"></div>
+    </div>
+    <div class="hero-content">
+      <h1>Feel the Power of <span>Gaming</span></h1>
+      <p>Experience motion, precision, and pure immersion.</p>
+      <a href="#portfolio" class="btn">Explore</a>
+    </div>
+  </section>
+
+  <section id="about" class="about fade-in py-16 px-4 sm:px-6 lg:px-8 text-center bg-dark-bg">
+      <div class="max-w-7xl mx-auto">
+          <h2 class="text-4xl sm:text-5xl font-extrabold mb-4 text-white">About Us</h2>
+          <p class="text-xl sm:text-2xl mb-12 text-gray-400 max-w-2xl mx-auto">
+              We create websites tailored to your style, including gaming sites and interactive experiences designed to engage and inspire.
+          </p>
+
+          <div class="mt-16 pt-8 border-t border-gray-800">
+              <h3 class="text-3xl font-bold mb-10 text-accent uppercase tracking-wider">Our Achievements in Numbers</h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                  <div class="stat-card">
+                      <div class="icon-wrapper"><i class="fa-solid fa-face-smile"></i></div>
+                      <div data-target="150" class="counter-value text-5xl font-bold text-white">0</div>
+                      <p class="text-secondary-text mt-1 text-base uppercase tracking-wider">Happy Clients</p>
+                  </div>
+
+                  <div class="stat-card">
+                      <div class="icon-wrapper"><i class="fa-solid fa-rocket"></i></div>
+                      <div data-target="35" class="counter-value text-5xl font-bold text-white">0</div>
+                      <p class="text-secondary-text mt-1 text-base uppercase tracking-wider">Completed Projects</p>
+                  </div>
+
+                  <div class="stat-card">
+                      <div class="icon-wrapper"><i class="fa-solid fa-clock"></i></div>
+                      <div data-target="950" class="counter-value text-5xl font-bold text-white">0</div>
+                      <p class="text-secondary-text mt-1 text-base uppercase tracking-wider">Hours Worked</p>
+                  </div>
+
+                  <div class="stat-card">
+                      <div class="icon-wrapper"><i class="fa-solid fa-medal"></i></div>
+                      <div data-target="12" class="counter-value text-5xl font-bold text-white">0</div>
+                      <p class="text-secondary-text mt-1 text-base uppercase tracking-wider">Awards Received</p>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2 class="fade-in">Our Skills</h2>
+    <div class="skill-container">
+      <div class="skill">
+        <svg class="progress-ring" width="150" height="150">
+          <circle class="progress-ring__background" stroke="#222" stroke-width="8" fill="transparent" r="68" cx="75" cy="75" />
+          <circle class="progress-ring__progress" stroke="#64ffda" stroke-width="8" fill="transparent" r="68" cx="75" cy="75" />
+        </svg>
+        <div class="skill-value">0%</div>
+        <h3>Design</h3>
+      </div>
+
+      <div class="skill">
+        <svg class="progress-ring" width="150" height="150">
+          <circle class="progress-ring__background" stroke="#222" stroke-width="8" fill="transparent" r="68" cx="75" cy="75" />
+          <circle class="progress-ring__progress" stroke="#64ffda" stroke-width="8" fill="transparent" r="68" cx="75" cy="75" />
+        </svg>
+        <div class="skill-value">0%</div>
+        <h3>Development</h3>
+      </div>
+
+      <div class="skill">
+        <svg class="progress-ring" width="150" height="150">
+          <circle class="progress-ring__background" stroke="#222" stroke-width="8" fill="transparent" r="68" cx="75" cy="75" />
+          <circle class="progress-ring__progress" stroke="#64ffda" stroke-width="8" fill="transparent" r="68" cx="75" cy="75" />
+        </svg>
+        <div class="skill-value">0%</div>
+        <h3>Innovation</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services fade-in">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="card slide-up">
+        <div class="service-icon"><i class="fa-solid fa-gamepad"></i></div>
+        <h3>Game Branding</h3>
+        <p>We craft distinctive game brands that tell compelling stories.</p>
+      </div>
+      <div class="card slide-up">
+        <div class="service-icon"><i class="fa-solid fa-cube"></i></div>
+        <h3>3D Experience</h3>
+        <p>Cutting-edge graphics with stunning real-time performance.</p>
+      </div>
+      <div class="card slide-up">
+        <div class="service-icon"><i class="fa-solid fa-paint-brush"></i></div>
+        <h3>Interactive Design</h3>
+        <p>Intuitive interfaces that enhance player engagement.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio fade-in">
+    <h2>Our Work</h2>
+    <div class="portfolio-grid">
+      <div class="item"><img src="https://cdn.dribbble.com/userupload/9202080/file/original-888ac1d85cb6013339f52d14f2617586.jpg?format=webp&resize=400x300&vertical=center" alt=""></div>
+      <div class="item"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/247c50178236403.Y3JvcCw4MDgsNjMyLDAsMA.png" alt=""></div>
+      <div class="item"><img src="https://cdn.dribbble.com/userupload/9136744/file/original-d0bbcee15f2b63c96ec9c4f40286e86d.jpg?resize=400x0" alt=""></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact fade-in">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Username" name="username" required>
+      <input type="text" placeholder="Your Name" name="name" required>
+      <input type="email" placeholder="Your Email" name="email" required>
+      <input type="password" placeholder="Password" name="password" required>
+      <textarea placeholder="Message" name="message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 GameWave Studio. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
